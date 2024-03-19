@@ -1,2 +1,3 @@
 # vega-excel
-目前数据获取待通过wind api接口方式进行修改 -- date.py
+date.py will be used to update WINDDATA by API
+test.py just to test the new graph code, Irrelevant to the overall project
