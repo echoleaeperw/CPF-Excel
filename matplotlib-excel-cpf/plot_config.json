@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "Data_daily_update/shibor_data.csv",
+    "fig_size": [8, 6],
+    "y_label": "SHIBOR Rates",
+    "left_ticks": [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5],
+    "right_ticks": [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5],
+    "date_interval": 2,
+    "legend_labels": ["SHIBOR:隔夜", "SHIBOR:1个月", "SHIBOR:3个月"],
+    "rect": [0, 0.005, 1, 1]
+  },
+  {
+    "filename": "Data_daily_update/shibor_data2.csv",
+    "fig_size": [8, 6],
+    "y_label": "SHIBOR Rates",
+    "left_ticks": [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5],
+    "right_ticks": [0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0],
+    "date_interval": 2,
+    "legend_labels": ["SHIBOR:隔夜", "SHIBOR:1个月", "SHIBOR:3个月"],
+    "rect": [0, 0.005, 1, 1]
+  }
+]
