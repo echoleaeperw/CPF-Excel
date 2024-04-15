@@ -1,0 +1,21 @@
+import re
+
+def clean_text(text):
+    # 去除HTML标签
+    text = re.sub('<[^>]*>', '', text)
+    
+    # 去除URL
+    text = re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', text)
+    
+    # 去除无用的标点符号
+    punctuation = '!,;:?"\'"""''–—'
+    for char in punctuation:
+        text = text.replace(char, '')
+    
+    # 去除多余的空格和换行符
+    text = re.sub('\s+', ' ', text).strip()
+    
+    # 统一转换为小写
+    text = text.lower()
+    
+    return text
